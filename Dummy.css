@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contianer {
+  background-color: rgb(183, 125, 125);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px auto;
+  margin: auto;
+}
+
+/* Card - 1 */
+.class1,
+.class2 {
+  background-color: rgb(239, 174, 90);
+  width: 23%;
+  border: 5px solid blue;
+  justify-content: center;
+  text-align: center;
+}
+
+.class1-head,
+.class2-head {
+  width: 100%;
+  padding: 13px auto;
+  margin: 5px auto;
+}
+
+.class1-body,
+.class2-body {
+  margin: 15px auto;
+}
+
+.class1-body img,
+.class2-body img {
+  width: auto;
+  object-fit: contain;
+}
